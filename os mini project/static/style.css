@@ -1,0 +1,68 @@
+
+ body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-image: url("img.jpg"); /* Path to your background image */
+      background-size: cover; /* Adjusts the background image size */
+      background-repeat: no-repeat; /* Prevents the background image from repeating */
+      /* You can add more styles here, such as background-position, etc. */
+    }
+h1 {
+    color:#00008B;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #1E90FF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #1E90FF;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Ensure the image takes up 100% width of its container */
